@@ -5,7 +5,8 @@
   "author": "Jimmy Cann <mail@jimmycann.com>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/_mocha ./__test__/**.spec.js --timeout 5000"
+    "test": "./node_modules/.bin/_mocha ./__test__/**.spec.js --timeout 5000",
+    "test:spec": "./node_modules/.bin/_mocha ./__test__/$SPEC.spec.js --timeout 5000"
   },
   "main": "./lib/optx.js",
   "dependencies": {
